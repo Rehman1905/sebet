@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #cecece;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section1{
+    background-color: #dedede;
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+input{
+    width: 290px;
+    font-size: 20px;
+    border: 1px solid #dedede;
+    background-color: #460dd5;
+    padding: 10px;
+    color: #fff;
+}
+input:focus{
+    border: 2px solid rgb(190, 13, 13);
+    outline: none;
+}
+::placeholder {
+    color: #fff;
+}
+#add{
+    background-color: rgb(219, 37, 37);
+    font-size: 20px;
+    color:#fff;
+    padding: 10px;
+    border: 1px solid #dedede;
+}
+img{
+    position: absolute;
+    margin-left: 90%;
+    width: 60px;
+}
+/* //////////////////////////////////////////////// */
+
+.div1,.div2{
+    display: flex;
+    margin-bottom: 10px;
+}
+#btn{
+    font-size: 20px;
+    height: 40px;
+    margin-left: 5px;
+    background-color: rgb(219, 37, 37);
+    color: #fff;
+    border: 1px solid rgb(96, 194, 96);
+    padding: 5px;
+}
+#ustDiv{
+    width: 50%;
+    gap: 60px;
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: rgb(96, 194, 96);
+    margin-bottom: 20px;
+}
+#duyme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#duyme button{
+    background-color: rgb(96, 194, 96);
+    color: #fff;
+    border: 1px solid rgb(96, 194, 96);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#artir{
+    font-size: 25px;
+}
+#azalt{
+    font-size: 20px;
+}
+#sil{
+    background-color: rgb(96, 194, 96);
+    border: 1px solid rgb(96, 194, 96);
+    font-size: 20px;
+    color: red;
+}
+#container2{
+    display: none;
+}
+#say{
+    margin-top: 15px;
+}
+#show{
+    display: none;
+    margin: 20px 50%;
+    font-size: 20px;
+    background-color: rgb(219, 37, 37);
+    color: #fff;
+    border: 1px solid #cecece;
+    padding: 10px;
+}
+@media (max-width: 768px) {
+    #section1 {
+        width: 87%;
+        height: 100px;
+        padding-left: 5px;
+    }
+    img{
+        margin-left: 85%;
+    }
+    #ustDiv {
+        width: 80%;
+    }
+}
